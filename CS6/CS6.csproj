@@ -6,4 +6,7 @@
     <LangVersion>6.0</LangVersion>
   </PropertyGroup>
 
+  <ItemGroup>
+  </ItemGroup>
+
 </Project>
