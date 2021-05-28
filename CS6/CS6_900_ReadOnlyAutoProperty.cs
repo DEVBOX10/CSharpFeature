@@ -4,9 +4,12 @@ using System.Text;
 
 namespace CS6
 {
-    class CS6_900_ReadOnlyAutoProperty
+    /// <summary>
+    /// C# 6.0 자동 속성 초기자 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/CS6/CSharp-auto-property.aspx#MainPlaceHolder_MainBar_MainContent_s2_TitleDiv
+    /// </summary>
+    public static class CS6_900_ReadOnlyAutoProperty
     {
-        void Test()
+        public static void Test()
         {
             Person2 p = new Person2();
             Console.WriteLine(p.Name);

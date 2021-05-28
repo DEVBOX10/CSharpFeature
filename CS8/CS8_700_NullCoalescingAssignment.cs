@@ -4,6 +4,9 @@ using System.Text;
 
 namespace CS8
 {
+    /// <summary>
+    /// C# 8 널 병합 할당자 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS8-null-coalescing.aspx
+    /// </summary>
     class CS8_700_NullCoalescingAssignment
     {
         static void Test(List<int> list)

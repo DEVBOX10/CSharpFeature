@@ -5,24 +5,36 @@ using System.Text;
 
 namespace CS6
 {
-    class CS6_100_NullConditionOperator
+    /// <summary>
+    /// C# 6.0 널 조건 연산자 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/CS6/CSharp-null-conditional-operator.aspx
+    /// </summary>
+    static class CS6_100_NullConditionOperator
     {
-        // rows가 NULL이면 cnt 도 NULL
-        // rows가 NULL이 아니면 cnt는 실제 rows 갯수
-        //int? cnt = rows?.Count;
+        public static void Test()
+        {
+            var rows = new List<string>();
+            var customers = new List<Customer>();
+            var button = new MyButton();
+            button.Click2();
 
-        //// customers 컬렉션이 NULL이면 c는 NULL
-        //// 아니면, c는 첫번째 배열요소
-        //Customer c = customers?[0];
+            // rows가 NULL이면 cnt 도 NULL
+            // rows가 NULL이 아니면 cnt는 실제 rows 갯수
+            int? cnt = rows?.Count;
 
-        //// customers가 널인지 체크하고
-        //// 다시 customers[0]가 널인지 체크
-        //int? age = customers?[0]?.Age;
+            // customers 컬렉션이 NULL이면 c는 NULL
+            // 아니면, c는 첫번째 배열요소
+            Customer c = customers?[0];
+
+            // customers가 널인지 체크하고
+            // 다시 customers[0]가 널인지 체크
+            int? age = customers?[0]?.Age;
+        }
     }
 
 
     class Customer : IEnumerable
     {
+        public int Age => 0;
         public IEnumerator GetEnumerator()
         {
             throw new NotImplementedException();
@@ -31,6 +43,7 @@ namespace CS6
 
     public class MyButton
     {
+        public delegate void MyEventHandler (object source, EventArgs args);
         public event EventHandler Clicked;
 
         // 이전 방식

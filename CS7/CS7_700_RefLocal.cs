@@ -4,6 +4,9 @@ using System.Text;
 
 namespace CS7
 {
+    /// <summary>
+    /// C# 7.0 ref return - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS7-ref-return.aspx
+    /// </summary>
     class CS7_700_RefLocal
     {
         void RefLocal()

@@ -6,6 +6,9 @@ using System.Text;
 
 namespace CS8
 {
+    /// <summary>
+    /// C# 8 using 선언 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS8-using.aspx
+    /// </summary>
     class CS8_600_UsingDeclaration
     {
         // C# 8.0

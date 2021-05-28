@@ -7,9 +7,12 @@ using System.Threading.Tasks;
 
 namespace CS6
 {
-    class CS6_600_AwaitCatchFinally
+    /// <summary>
+    /// C# 6.0 catch블럭 await - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/CS6/CSharp-try-catch-enhanced.aspx
+    /// </summary>
+    public static class CS6_600_AwaitCatchFinally
     {
-        async void Test()
+        public static async void Test()
         {
             var req = HttpWebRequest.CreateHttp("");
 
@@ -36,11 +39,11 @@ namespace CS6
         
 
 
-        async Task Close(IDbConnection conn)
+        public static async Task Close(IDbConnection conn)
         {
         }
 
-        async Task Log(Exception ex)
+        public static async Task Log(Exception ex)
         {
         }
     }

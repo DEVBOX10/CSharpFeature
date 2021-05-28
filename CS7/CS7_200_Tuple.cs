@@ -5,17 +5,19 @@ using System.Text;
 namespace CS7
 {
     /// <summary>
-    /// 메서드 원형을 정의할 때 리턴타입이 복수 개이므로 튜플 리턴 타입(tuple return type) 표현식을 사용하게 되는데, 이는 괄호 ( ) 안에 여러 리턴타입들을 순서대로 나열하면 된다. 예를 들어, int 2개와 double 하나를 리턴할 경우 "(int, int, double)" 과 같이 표현할 수 있으며, 더 나아가 편의를 위해 각 리턴타입마다 이름을 지정할 수도 있다. 예를 들어 "(int count, int sum, double average)"와 같이.
+    /// C# 7.0 튜플 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS7-tuple.aspx
     /// 
-    /// 메서드 원형을 정의할 때 리턴타입이 복수 개이므로 튜플 리턴 타입(tuple return type) 표현식을 사용하게 되는데, 이는 괄호 ( ) 안에 여러 리턴타입들을 순서대로 나열하면 된다. 예를 들어, int 2개와 double 하나를 리턴할 경우 "(int, int, double)" 과 같이 표현할 수 있으며, 더 나아가 편의를 위해 각 리턴타입마다 이름을 지정할 수도 있다. 예를 들어 "(int count, int sum, double average)"와 같이.
-    /// 
+    /// 메서드 원형을 정의할 때 리턴타입이 복수 개이므로 튜플 리턴 타입(tuple return type) 표현식을 사용하게 되는데, 이는 괄호 ( ) 안에 여러 리턴타입들을 순서대로 나열하면 된다. 
+    /// 예를 들어, int 2개와 double 하나를 리턴할 경우 "(int, int, double)" 과 같이 표현할 수 있으며, 더 나아가 편의를 위해 각 리턴타입마다 이름을 지정할 수도 있다. 
+    /// 예를 들어 "(int count, int sum, double average)"와 같이.
     /// 아래 예제에서 Calculate() 라는 메서드는 입력된 숫자 리스트의 갯수, 합계, 평균을 리턴하는 함수인데, 메서드명 앞에 튜플 리턴 타입을 지정하였으며, 메서드 본문 마지막 return 문에는 3개의 변수값들을 묶은 튜플 리터럴을 리턴하고 있다.
-    /// 
-    /// 아래 Calculate() 메서드에서 튜플리턴타입을 명칭 없이 타입만(int, int, double) 지정한다면, 결과 변수는 r.Item1, r.Item2, r.Item3 와 같이 Item* 이라는 속성을 사용하여 3개의 값을 전달받는다. 이러한 Item* 속성은 튜플로부터 항상 사용할 수 있는 속성이다. 물론 아래 예제 처럼 튜플리턴타입에 명칭을 선언한다면, 선언된 변수명을 사용할 수 있다.
+    /// 아래 Calculate() 메서드에서 튜플리턴타입을 명칭 없이 타입만(int, int, double) 지정한다면, 결과 변수는 r.Item1, r.Item2, r.Item3 와 같이 Item* 이라는 속성을 사용하여 3개의 값을 전달받는다. 
+    /// 이러한 Item* 속성은 튜플로부터 항상 사용할 수 있는 속성이다. 
+    /// 물론 아래 예제 처럼 튜플리턴타입에 명칭을 선언한다면, 선언된 변수명을 사용할 수 있다.
     /// </summary>
-    class CS7_200_Tuple
+    public static class CS7_200_Tuple
     {
-        (int count, int sum, double average) Calculate(List<int> data) //튜플 리턴타입
+        static (int count, int sum, double average) Calculate(List<int> data) //튜플 리턴타입
         {
             int cnt = 0, sum = 0;
             double avg = 0;
@@ -31,7 +33,7 @@ namespace CS7
             return (cnt, sum, avg); //튜플 리터럴
         }
 
-        private void Run()
+        public static void Run()
         {
             var list = new List<int> { 1, 2, 3, 4, 5 };
 
@@ -47,7 +49,7 @@ namespace CS7
         /// 아래 마지막 라인처럼 기존에 있는 변수들에 (변수 타입 선언 없이) 할당할 수도 있다.
         /// 
         /// </summary>
-        void TupleDeconstruction()
+        static void TupleDeconstruction()
         {
             var list = new List<int> { 1, 2, 3, 4, 5 };
 

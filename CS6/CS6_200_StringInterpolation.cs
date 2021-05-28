@@ -4,9 +4,12 @@ using System.Text;
 
 namespace CS6
 {
-    class CS6_200_StringInterpolation
+    /// <summary>
+    /// C# 6.0 문자열 내삽 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/CS6/CSharp-string-interpolation.aspx
+    /// </summary>
+    public static class CS6_200_StringInterpolation
     {
-        void Test()
+        public static void Test()
         {
             Rectangle r = new Rectangle();
             r.Height = 10;

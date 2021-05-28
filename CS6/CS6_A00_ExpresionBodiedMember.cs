@@ -6,7 +6,10 @@ using System.Text;
 
 namespace CS6
 {
-    class CS6_A00_ExpresionBodiedMember
+    /// <summary>
+    /// C# 6.0 Expression-bodied - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/CS6/CSharp-Expression-bodied-member.aspx
+    /// </summary>
+    public class CS6_A00_ExpresionBodiedMember
     {
         public int Height { get; set; }
         public int Width { get; set; }

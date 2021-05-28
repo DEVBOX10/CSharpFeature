@@ -4,6 +4,9 @@ using System.Text;
 
 namespace CS7
 {
+    /// <summary>
+    /// C# 7.0 throw expression - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS7-throw-expr.aspx
+    /// </summary>
     class CS7_A00_ThrowExpression
     {
         private string _name;

@@ -5,6 +5,9 @@ using System.Diagnostics;
 
 namespace CS8
 {
+    /// <summary>
+    /// C# 8 디폴트 인터페이스 멤버 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS8-def-itf-mem.aspx
+    /// </summary>
     class CS8_100_DefaultInterfaceMember
     {
         void Test()

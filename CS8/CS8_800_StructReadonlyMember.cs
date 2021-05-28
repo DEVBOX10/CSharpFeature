@@ -6,6 +6,9 @@ using System.Text;
 
 namespace CS8
 {
+    /// <summary>
+    /// C# 8 구조체 읽기 전용 멤버 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS8-readonly-member.aspx
+    /// </summary>
     class CS8_800_StructReadonlyMember
     {
         static void Test()

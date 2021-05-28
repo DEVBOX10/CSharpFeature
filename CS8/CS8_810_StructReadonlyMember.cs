@@ -7,7 +7,10 @@ using System.Text;
 namespace CS8
 {
     /// <summary>
-    /// 이전 C# 버전에서 구조체(struct) 전체를 readonly로 만들 수 있었는데, C# 8.0부터는 구조체의 각 멤버에 대해 개별적으로 readonly로 정의할 수 있게 되었다. 만약 구조체의 메서드나 속성이 구조체의 상태를 변경하지 않는다면 readonly로 적용할 수 있고, readonly 멤버가 다른 non-readonly 멤버를 엑세스하면 컴파일러가 Warning을 표시한다.
+    /// C# 8 구조체 읽기 전용 멤버 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS8-readonly-member.aspx
+    /// 
+    /// 이전 C# 버전에서 구조체(struct) 전체를 readonly로 만들 수 있었는데, C# 8.0부터는 구조체의 각 멤버에 대해 개별적으로 readonly로 정의할 수 있게 되었다. 
+    /// 만약 구조체의 메서드나 속성이 구조체의 상태를 변경하지 않는다면 readonly로 적용할 수 있고, readonly 멤버가 다른 non-readonly 멤버를 엑세스하면 컴파일러가 Warning을 표시한다.
     /// </summary>
     class CS8_810_StructReadonlyMember
     {

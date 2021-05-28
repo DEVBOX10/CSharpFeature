@@ -4,6 +4,9 @@ using System.Text;
 
 namespace CS7
 {
+    /// <summary>
+    /// C# 7.0 out 파라미터 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS7-outvar.aspx
+    /// </summary>
     class CS7_400_OutVariable
     {
         void Test()

@@ -4,6 +4,9 @@ using System.Text;
 
 namespace CS8
 {
+    /// <summary>
+    /// C# 8 기타 기능들 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS8-misc.aspx
+    /// </summary>
     class CS8_B00_UnmanagedConstructedType
     {
         // System.Enum Type Contraint

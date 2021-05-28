@@ -4,6 +4,9 @@ using System.Text;
 
 namespace CS8
 {
+    /// <summary>
+    /// C# 8 패턴 매칭 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS8-pattern-matching.aspx
+    /// </summary>
     class CS8_200_TuplePattern
     {
         static int GetCreditLimit(int creditScore, int debtLevel)

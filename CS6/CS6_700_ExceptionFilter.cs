@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace CS6
 {
-    class CS6_700_ExceptionFilter
+    /// <summary>
+    /// C# 6.0 catch블럭 await - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/CS6/CSharp-try-catch-enhanced.aspx#MainPlaceHolder_MainBar_MainContent_s2_TitleDiv
+    /// </summary>
+    public static class CS6_700_ExceptionFilter
     {
-        async void ExceptionFilter()
+        public static async void ExceptionFilter()
         {
             // Exception Filter
             try
@@ -21,7 +24,7 @@ namespace CS6
             }
         }
 
-        async Task Log(Exception ex)
+        public static async Task Log(Exception ex)
         {
         }
     }

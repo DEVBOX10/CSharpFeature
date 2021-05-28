@@ -4,6 +4,9 @@ using System.Text;
 
 namespace CS8
 {
+    /// <summary>
+    /// C# 8 Nullable Reference Type - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS8-nullable-ref-type.aspx
+    /// </summary>
     class CS8_300_NullableReference
     {
         // C# 8.0에 추가된 이러한 Nullable Reference Type 기능은 기존에 작성된 프로그램들에 대해 수많은 경고 메시지를 발생시키게 할 것이다. 왜냐하면, C# 8.0 이전에는 Reference Type에 자유롭게 NULL을 할당할 수 있었기 때문에, 동일한 기존 C# 프로그램을 C# 8.0 컴파일러로 컴파일하면 모두 Warning으로 취급하게 될 것이기 때문이다. 이러한 Backward Compatibilty 문제점 때문에 C# 8.0 에선 디폴트로 Nullable Reference Type 기능을 Disable 하였으며, 이 기능을 사용하기 위해서는 프로젝트 레벨이나 파일 레벨, 혹은 소스코드 내의 임의의 위치에서 Nullable Reference Type 기능을 사용하도록 먼저 Enable 하여야 한다.

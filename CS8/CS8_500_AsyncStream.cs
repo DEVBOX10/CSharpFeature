@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 
 namespace CS8
 {
+    /// <summary>
+    /// C# 8 비동기 스트림 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS8-async-stream.aspx
+    /// </summary>
     class CS8_500_AsyncStream
     {
         static void Test()

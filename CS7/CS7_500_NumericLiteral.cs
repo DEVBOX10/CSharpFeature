@@ -4,6 +4,9 @@ using System.Text;
 
 namespace CS7
 {
+    /// <summary>
+    /// C# 7.0 리터럴 표현 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS7-literal.aspx
+    /// </summary>
     class CS7_500_NumericLiteral
     {
         // Digit Separator 사용예 

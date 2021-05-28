@@ -4,6 +4,9 @@ using System.Text;
 
 namespace CS8
 {
+    /// <summary>
+    /// C# 8 인덱싱과 슬라이싱 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/Latest/CS8-indexing-slicing.aspx
+    /// </summary>
     class CS8_400_IndexingSlicing
     {
         static void Index_Range()

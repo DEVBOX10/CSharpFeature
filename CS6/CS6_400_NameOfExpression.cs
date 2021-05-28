@@ -4,9 +4,12 @@ using System.Text;
 
 namespace CS6
 {
-    class CS6_400_NameOfExpression
+    /// <summary>
+    /// C# 6.0 nameof 연산자 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/CS6/CSharp-nameof.aspx
+    /// </summary>
+    public static class CS6_400_NameOfExpression
     {
-        void Test()
+        public static void Test()
         {
             var id = "";
 
@@ -23,7 +26,7 @@ namespace CS6
         }
 
         // 3. 메서드명 로깅에 추가
-        void Run()
+        public static void Run()
         {
             Console.WriteLine(nameof(Run) + " : Started");
         }

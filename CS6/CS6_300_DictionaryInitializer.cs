@@ -4,9 +4,12 @@ using System.Text;
 
 namespace CS6
 {
-    class CS6_300_DictionaryInitializer
+    /// <summary>
+    /// C# 6.0 Dictionary초기자 - C# 프로그래밍 배우기 (Learn C# Programming) : https://www.csharpstudy.com/CS6/CSharp-dictionary-initializer.aspx
+    /// </summary>
+    public static class CS6_300_DictionaryInitializer
     {
-        void Test()
+        public static void Test()
         {
             // 이전의 C# 표현
             var scores = new Dictionary<string, int>()
